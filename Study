@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Hub - Your Go-To Source for Study Materials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #004494;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        footer {
+            background-color: #004494;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #003f7f;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Study Hub</h1>
+    <p>Your Go-To Source for Study Materials and Notes</p>
+</header>
+
+<nav>
+    <a href="#study-materials">Study Materials</a>
+    <a href="#blog">Blog</a>
+    <a href="#resources">Resources</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="study-materials">
+    <h2>Study Materials</h2>
+    <p>Explore our extensive collection of study notes and materials, categorized by subject and topic.</p>
+    <div class="grid-container">
+        <div>
+            <h3>Mathematics</h3>
+            <p>Algebra, Calculus, Geometry, and more.</p>
+        </div>
+        <div>
+            <h3>Science</h3>
+            <p>Biology, Chemistry, Physics, and more.</p>
+        </div>
+        <div>
+            <h3>History</h3>
+            <p>World History, Modern History, and more.</p>
+        </div>
+        <!-- Add more sections as needed -->
+    </div>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <p>Read our latest articles on study tips, exam preparation, and educational resources.</p>
+    <div class="grid-container">
+        <div>
+            <h3>Study Tips for Success</h3>
+            <p>Learn how to study effectively and boost your grades.</p>
+        </div>
+        <div>
+            <h3>Top 10 Study Tools</h3>
+            <p>Discover the best apps and tools to aid your learning.</p>
+        </div>
+        <!-- Add more articles as needed -->
+    </div>
+</section>
+
+<section id="resources">
+    <h2>Resources</h2>
+    <p>Recommended books, courses, and tools for students.</p>
+    <div class="grid-container">
+        <div>
+            <h3>Essential Textbooks</h3>
+            <p>Must-have books for your studies.</p>
+        </div>
+        <div>
+            <h3>Online Courses</h3>
+            <p>Best online courses to supplement your learning.</p>
+        </div>
+        <!-- Add more resources as needed -->
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or need specific study materials? Get in touch with us.</p>
+    <div class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Study Hub. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
